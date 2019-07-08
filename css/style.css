@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Oldenburg|Rubik+Mono+One&display=swap');
+
+/*
+font-family: 'Oldenburg', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Rubik Mono One', sans-serif;
+*/
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Merriweather', serif;
+    text-transform: uppercase;
+}
+
+#buy btn{
+    display:block;
+    align-content: center;
+    justify-content: center;
+}
+
+#h4{
+    text-align: center;
+    
+}
+
+#back{
+    padding: 40px;
+    background: url(../Assets/Img/old2.jpg);
+}
+
+#cta{
+    padding: 100px;
+    background: url(../Assets/Img/old2.jpg);
+}
+
+#bar{
+    text-decoration-color:#b12ad5; 
+
+}
+
+.btn btn  btn-lg btn-block {
+    color: #b12ad5;
+}
+
+.card{
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+}
+
+.navbar-toggler-icon{
+    color: aqua;
+}
+
+footer{
+    padding: 40px;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    width: 45px;
+    border: 1px solid #b33dc2;
+    border-radius: 50%;
+    margin-top: 10px;
+    }
+
+footer a:nth-child(2){
+    margin-left: 5px;
+    margin-right:5px;
+}
+
+footer .fa{
+    color: #b33dc2;
+    font-size: 25px;
+}
+
+footer a:hover{
+    background: #b33dc2;
+}
+
+footer a:hover .fa{
+    color: #fff;
+}
+
+.list-group-item list-group-item-action active{
+    align-content: center center;
+}
+
+#buy btn{
+    color: #b33dc2;
+}
